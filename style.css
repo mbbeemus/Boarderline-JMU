@@ -1,0 +1,206 @@
+/* Navigation Bar Style */
+
+		/* Show dropdown on hover */
+		.nav-item.dropdown:hover .dropdown-menu {
+		  display: block;
+		  left: 50%;
+    		transform: translateX(-50%);
+
+		}
+
+		/* Navirgation Bar Background color */
+		.bg-body-tertiary {
+		    background-color: rgba(69, 0, 132, 1)!important;
+		}
+
+		/* Navigation Bar Text */
+		.nav {
+		    --bs-nav-link-color: #fff;
+		    --bs-nav-link-hover-color: rgba(181, 153, 206);
+
+		    font-family: "Bebas Neue", sans-serif;
+ 			font-weight: 400;
+  			font-style: normal;
+  			font-size: 2rem;
+  			padding-top: 0;
+		}
+
+		.navbar{
+			padding: 0px;
+		}
+
+/*Index Banner Image Style */
+	.full-width-image {
+	            overflow: hidden; /* To prevent horizontal scroll */
+	           
+	        }
+
+	.full-width-image img {
+	            width: 100%;
+	            height: auto;
+	            display: block;
+	            margin: 0 auto; /* Center the image horizontally */
+	            padding: 0;
+}
+
+
+
+/*Footer CSS */
+
+	#footer-content{
+		background-color: rgba(69, 0, 132)!important;
+		font-family: "Bebas Neue", sans-serif;
+ 			font-weight: 400;
+  			font-style: normal;
+  			font-size: 1rem;
+  			padding-top: 0;
+  			color: white !important;
+  		padding-left: 20px;
+  		padding-top: 15px;
+  		text-decoration: none;
+  		padding-right: 50px;
+	}
+
+	#footer-content a{
+		font-family: "Bebas Neue", sans-serif;
+ 			font-weight: 400;
+  			font-style: normal;
+  			font-size: 1rem;
+  			padding-top: 0;
+  			color: white;
+
+  		text-decoration: none;
+	}
+
+	#footer-content a:hover {
+		color: rgba(181, 153, 206);
+	}
+
+
+
+
+/* H1 Style */
+h1{
+	font-family: "Bebas Neue", sans-serif;
+ 	font-weight: 400;
+  	font-style: normal;
+  	font-size: 4rem;
+}
+
+/* H2 Style */
+
+h2{
+	font-family: "Bebas Neue", sans-serif;
+	font-size: 3rem;
+	padding: 10px;
+}
+
+/* H3 Style */
+
+h3{
+  font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: medium;
+  font-variation-settings:
+    "slnt" 0;
+   font-size: 2.5rem;
+   text-align: center;
+   padding-top: 0px;
+}
+
+/* H4 Style */
+h4{
+  font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: medium;
+  font-variation-settings:
+    "slnt" 0;
+   font-size: 2rem;
+}
+
+/* H5 Style */
+
+/* H6 Style */
+
+/* p Style */
+p{
+  font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: light;
+  font-variation-settings:
+    "slnt" 0;
+    font-size: 1.5rem;
+}
+
+/* BL Introduction - Index Page */
+#introduction{
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+#introduction h1{
+	text-align: center;
+}
+
+/*Newsletter - Index */
+
+#newsletter{
+		padding-left: 50px;
+		padding-bottom: 50px;
+		padding-right: 50px;
+}
+
+#newsletter h2{
+	text-align: center;
+}
+
+#newsletter .btn{
+	margin: 10px;
+	background-color: rgba(69, 0, 132, 1);
+	--bs-btn-border-color: white;
+	font-family: "Bebas Neue", sans-serif;
+ 	font-weight: 400;
+  	font-style: normal;
+  	font-size: 1.5rem;
+  	width: 250px;
+}
+
+#newsletter .btn:hover {
+	margin: 10px;
+	background-color: rgba(181, 153, 206);
+	--bs-btn-border-color: white;
+	font-family: "Bebas Neue", sans-serif;
+ 	font-weight: 400;
+  	font-style: normal;
+  	font-size: 1.5rem;
+  	--bs-btn-hover-border-color: white;
+}
+
+
+.custom-modal-size {
+  max-width: 80%; /* Adjust the width as needed */
+  max-height: 90%; /* Adjust the height as needed */
+}
+
+/* Videos - Index page */
+#video-header h2{
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+
+#VideosRowOne{
+	padding: 50px;
+	padding-top: 0px;
+}
+
+#VideosRowTwo{
+	padding: 50px;
+	padding-top: 0px;
+}
+
