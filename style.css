@@ -352,16 +352,16 @@ p{
 }
 
 .instagram-post {
-    height: 600px !important;
-    max-height: 600px !important;
-    min-height: 600px !important;
+    height: 500px !important;
+    max-height: 500px !important;
+    min-height: 500px !important;
 }
 
 .instagram-media {
-    width: 300px;
-    height: 300px;
-    min-width: 300px;
-    min-height: 300px;
+    width: 420px;
+    height: 500px;
+    min-width: 420px;
+    min-height: 500px;
     overflow: auto; /* or use overflow: scroll; for visible scrollbars */
     object-fit: cover;
     border: 1px solid #ccc;
@@ -370,13 +370,13 @@ p{
 
 @media (max-width: 768px) {
     .instagram-post {
-        height: 400px;
+        height: 500px;
     }
 }
 
 iframe.instagram-media {
-    width: 300px !important;
-    height: 300px !important;
+    width: 420px !important;
+    height: 500px !important;
     overflow: auto;
     border: 1px solid #ccc;
 }
