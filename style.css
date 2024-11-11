@@ -350,11 +350,9 @@ p{
 }
 
 .instagram-post {
-    height: 600px; /* Set the desired height */
-    overflow: hidden; /* Ensure content doesn't exceed the container */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 600px !important;
+    max-height: 600px !important;
+    min-height: 600px !important;
 }
 
 .instagram-media {
