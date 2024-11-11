@@ -55,7 +55,7 @@
   			font-size: 1rem;
   			padding-top: 0;
   			color: white !important;
-  		padding-left: 20px;
+  		padding-left: 50px;
   		padding-top: 15px;
   		text-decoration: none;
   		padding-right: 50px;
@@ -137,10 +137,11 @@ p{
 
 /* BL Introduction - Index Page */
 #introduction{
-	padding-left: 100px;
-	padding-right: 100px;
+	padding-left: 50px;
+	padding-right: 50px;
 	padding-top: 30px;
 	padding-bottom: 50px;
+	text-align: center;
 }
 
 #introduction h1{
@@ -183,9 +184,16 @@ p{
 
 
 .custom-modal-size {
-  max-width: 80%; /* Adjust the width as needed */
-  max-height: 90%; /* Adjust the height as needed */
+  max-width: 45%; /* Adjust the width as needed */
+  max-height: 50%; /* Adjust the height as needed */
 }
+
+/* Style for the iframe inside the modal */
+.modal-body iframe {
+    width: 40vw; /* 50% of the viewport width */
+    height: 65vh; /* 50% of the viewport height */
+}
+
 
 /* Videos - Index page */
 #video-header h2{
@@ -204,3 +212,139 @@ p{
 	padding-top: 0px;
 }
 
+.embed-responsive {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+}
+
+.embed-responsive-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+/* Custom size for the Vimeo video */
+.custom-vimeo-size {
+    padding-bottom: 75%; /* Increase to make it taller */
+}
+
+.embed-responsive {
+    position: relative;
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+
+.embed-responsive-16by9 {
+    padding-bottom: 56.25%; /* Standard 16:9 ratio */
+}
+
+
+/*Our Partners - Index Page */
+#our-partners-header h2{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#our-partners{
+	padding-bottom: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+/*TRIPS PAGE*/
+#trips-header{
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 30px;
+	text-align: center;
+}
+
+#trips-introduction{
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: center;
+}
+
+#trip-buttons{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#snowshoe .btn-primary{
+	margin: 10px;
+	background-color: rgba(69, 0, 132, 1);
+	--bs-btn-border-color: white;
+	font-family: "Bebas Neue", sans-serif;
+ 	font-weight: 400;
+  	font-style: normal;
+  	font-size: 1.5rem;
+  	width: 250px;
+  	align-content: center;
+}
+
+
+#snowshoe{
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 30px;
+}
+
+#snowshoe h2{
+	text-align: center;
+}
+
+#spring-break{
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 30px;
+}
+
+#spring-break h2{
+	text-align: center;
+}
+
+#winter-break{
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 30px;
+}
+
+#winter-break h2{
+	text-align: center;
+}
+
+#camping{
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+#camping h2{
+	text-align: center;
+}
+
+.page-header{
+	text-align: center;
+	padding-top: 30px;
+}
+
+.page-header-body{
+	padding-right: 50px;
+	padding-left: 50px;
+
+}
+
+.instagram-post{
+	padding: 50px;
+	padding-top: 0px;
+}
