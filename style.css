@@ -348,3 +348,24 @@ p{
 	padding: 50px;
 	padding-top: 0px;
 }
+
+.instagram-post {
+    height: 600px; /* Set the desired height */
+    overflow: hidden; /* Ensure content doesn't exceed the container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagram-media {
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Scales the post nicely within the container */
+}
+
+@media (max-width: 768px) {
+    .instagram-post {
+        height: 400px;
+    }
+}
