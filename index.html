@@ -197,13 +197,13 @@
         <div class="col-sm-12 col-md-6 mb-4">
             <h4>Boarderline Hype Video</h4>
             <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nsdYiZ2PMyo?si=GEM9eCRAwS-KkqdK" title="Boarderline Hype Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nsdYiZ2PMyo?si=GEM9eCRAwS-KkqdK" width="100%" title="Boarderline Hype Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
         <div class="col-sm-12 col-md-6 mb-4">
             <h4>December Snowshoe Trip 2022</h4>
             <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mIJ8F4n7NOk?si=_el7x0EQGsEHVDKT" title="December Snowshoe Trip 2022" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mIJ8F4n7NOk?si=_el7x0EQGsEHVDKT" width="100%" title="December Snowshoe Trip 2022" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
     </div>
@@ -340,6 +340,20 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const instagramPosts = document.querySelectorAll('.instagram-media');
+
+        instagramPosts.forEach(post => {
+            post.style.width = '400px';
+            post.style.height = '550px';
+            post.style.maxWidth = '400px';
+            post.style.maxHeight = '550px';
+        });
+    });
+</script>
+
 <!-- END LOADING BOOTSTRAP JAVASCRIPT -->
 </body>
 </html>
